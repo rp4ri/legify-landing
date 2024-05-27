@@ -11,10 +11,31 @@ module.exports = {
             palette: {
                 extend: "oz",
             },
+            appearance: "light",
             radius: "smoothest",
             background: "light",
             border: "light",
-            padding: "large"
+            padding: "large",
+            components:{
+                card: {
+                    rounded : "3xl",
+                    bg:"100",
+                    padding : "8",
+                    shadow : {
+                        size : "md",
+                        opacity : 8
+                    },
+                    dark : {
+                        bg : "100",
+                    }
+                },
+                ui:{
+                    borderColor : "200",
+                    dark : {
+                        borderColor : "200",
+                    }
+                }
+            }
         })
     ],
 };

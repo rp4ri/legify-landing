@@ -1,0 +1,3 @@
+type Palette = {
+    appearence?: "light";
+};

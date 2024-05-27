@@ -1,9 +1,10 @@
 {
-  "name": "atom",
+  "name": "legify",
   "description": "Modern free Tailwind CSS, Astro landing page template for startups | built with Tailus Themer",
-  "version": "0.0.2",
-  "private": false,
+  "version": "0.0.1",
+  "private": true,
   "type": "module",
+  "author": "rp4ri",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -23,6 +24,7 @@
     "tailwindcss": "^3.4.3"
   },
   "devDependencies": {
-    "@astrojs/tailwind": "^5.1.0"
+    "@astrojs/tailwind": "^5.1.0",
+    "@types/node": "^20.12.12"
   }
 }

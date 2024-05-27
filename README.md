@@ -1,4 +1,4 @@
-# Atom
+# Legify
 
 Modern free Tailwind CSS, Astro landing page template for startups | built with Tailus Themer
 
